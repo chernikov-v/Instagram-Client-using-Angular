@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" ng-app="taskApp" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="Access-Control-Allow-Origin" content="*">-->
+    <title>InstaGallery by Tags</title>
+
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <script src="bower_components/jquery/jquery-1.10.2.js"></script>
+
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="bower_components/ngstorage/ngStorage.js"></script>
+    <script src="bower_components/lodash/dist/lodash.js"></script>
+    <script src="bower_components/angular-timeago/src/timeAgo.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/directives.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/jq-content.js"></script>
+
+
+</head>
+<body class="main-bg">
+<!--===========================================Навигационное меню====================================================-->
+<div class="navbar navbar-default navbar-static-top">
+    <div class="logo centered">
+        <a href="http://localhost/task/app/">
+            <img src="img/instagram-logo-white.png">
+        </a>
+    </div>
+</div>
+
+<!--=============================================Вывод контента====================================================-->
+
+<div ng-view class="container break-words"></div>
+
+
+</body>
+</html>
+
+
